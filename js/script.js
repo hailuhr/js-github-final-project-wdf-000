@@ -36,8 +36,6 @@ function submitForm(event) {
 
 
 function createIssue(repoName, repoOwner, title, body) {
-      var token = "2aa6a704ae1b85b6e20af38a167c52e9c4aea56b"
-
       // debugger;
 
       var url = `https://api.github.com/repos/${repoOwner}/${repoName}/issues`
