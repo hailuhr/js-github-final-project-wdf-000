@@ -57,8 +57,8 @@ function createIssue(repoName, repoOwner, title, body) {
                   handleResponse(response)
                 },
                 error: function(response) {
-                  debugger
-                  handleError()
+                  // debugger
+                  handleError(response)
                 },
                 headers: {
                 Authorization: `token ${token}`
